@@ -20,6 +20,8 @@ namespace fiveth_lab
             Console.Write("Введите искомое слово: ");
             string word = Console.ReadLine();
 
+            Console.WriteLine();
+
             string path = @"C:\Users\MrDzhofik\semester_7\С_sharp\fiveth_lab\fiveth_lab\F.txt";
             FileInfo fileInfo = new FileInfo(path);
 
@@ -33,6 +35,8 @@ namespace fiveth_lab
             string fileText = File.ReadAllText(path);
             string[] words = fileText.Split(' ');
             int count = 0;
+
+            Console.WriteLine();
 
             for (int i = 0; i < words.Length; i++)
             {

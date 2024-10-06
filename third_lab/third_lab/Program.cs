@@ -93,7 +93,7 @@ class ProjectManager
         }
         else
         {
-            Console.WriteLine("Нет задач для отображения.\n");
+            Console.WriteLine("Нет задач.\n");
         }
     }
 }
