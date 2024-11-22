@@ -152,7 +152,7 @@ namespace lab10
                 Console.WriteLine($"Ошибка: {ex.Message}");
             }
 
-            Console.WriteLine("\nПродаю людей, бананы..." + " Шучу, не бананы");
+            Console.WriteLine("\nПродаю людей, бананы... Шучу, не бананы");
         }
     }
 }

@@ -240,10 +240,10 @@ namespace DZ1
                         result = EvaluateRPN(input[i]);
                         if (result == outputs[i])
                         {
-                            Console.WriteLine($"Тест {i+1} пройден");
+                            Console.WriteLine($"Выражение: {input[i]}\n Результат: {result}\n   Ожидаемый результат: {outputs[i]}\n    Тест {i+1} пройден\n");
                         } else
                         {
-                            Console.WriteLine($"Тест {i + 1} не пройден");
+                            Console.WriteLine($"Выражение: {input[i]}\n Результат: {result}\n  Тест {i + 1} не пройден\n");
                         }
                     }
                     break;
